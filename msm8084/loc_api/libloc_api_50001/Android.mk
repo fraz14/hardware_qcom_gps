@@ -40,6 +40,7 @@ LOCAL_CFLAGS += \
      -D_ANDROID_ \
      -Wno-unused-parameter \
      -Wno-error \
+     -Wno-null-conversion \
 
 LOCAL_C_INCLUDES:= \
     $(TARGET_OUT_HEADERS)/gps.utils \
